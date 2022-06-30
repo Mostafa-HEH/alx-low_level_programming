@@ -6,4 +6,4 @@
 ### Tools allowed to use:
 	- As OS : Ubuntu 20.04 LTS .
 	- As Text Editor: vi, vim, emacs.
-	- As code formating [Betty](https://github.com/holbertonschool/Betty).
+	- As code formating [Betty](https://github.com/holbertonschool/Betty) .
