@@ -1,2 +1,3 @@
 ## Tasks on 0x01. C - Variables, if, else, while project at week #3 at 7/1/2022
  - Task 0: program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
+ - Task 1:  program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n. [sorce: C program to extract the last two digits from a given year](https://www.includehelp.com/c-programs/extract-the-last-two-digits-from-a-given-year.aspx)
