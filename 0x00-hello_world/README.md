@@ -6,8 +6,6 @@
  - Task 4: C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
  - Task 5: a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
  - Task 6: a C program that prints the size of various types on the computer it is compiled and run on.
- - Task 7:  a script that generates the assembly code (Intel syntax) of a C code and save it in an output file. - src: <pre><code>man gcc</code></pre> * -masm=dialect
-           Output assembly instructions using selected dialect.  Also
-           affects which dialect is used for basic "asm" and extended
-           "asm". Supported choices (in dialect order) are att or intel.
-           The default is att. Darwin does not support intel. *
+ - Task 7: a script that generates the assembly code (Intel syntax) of a C code and save it in an output file. - src: <pre><code>man gcc</code></pre> 
+  * -masm=dialect<br/>Output assembly instructions using selected dialect. Also affects which dialect is used for basic "asm" and extended "asm". Supported choices (in dialect order) are att or intel. The default is att. Darwin does not support intel. *
+ - Task 8:  a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
