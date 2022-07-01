@@ -3,3 +3,4 @@
  - Task 1:  program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n. [src: C program to extract the last two digits from a given year](https://www.includehelp.com/c-programs/extract-the-last-two-digits-from-a-given-year.aspx)
  - Task 2:  program that prints the alphabet in lowercase, followed by a new line. [src: putchar() function in Cputchar() function in C](https://www.geeksforgeeks.org/putchar-function-in-c)
  - Task 3: program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ - Task 4: Write a program that prints the alphabet in lowercase, followed by a new line.
