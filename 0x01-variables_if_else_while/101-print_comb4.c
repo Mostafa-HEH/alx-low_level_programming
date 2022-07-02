@@ -37,7 +37,7 @@ int main(void)
 				putchar(second);
 				putchar(third);
 
-				if (first < 55 || second < 56 || third || 57)
+				if (first < 55 || second < 56 || third < 57)
 				{
 					putchar(44);
 					putchar(32);
