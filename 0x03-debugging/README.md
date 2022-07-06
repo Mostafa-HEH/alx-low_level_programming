@@ -9,3 +9,4 @@
 	- A README.md file, at the root of the folder of this project (i.e. 0x03-debugging), describing what this project is about
 
  - Task 0: In most projects, we often give you only one main file to test with. For example, this main file is a test for a postitive_or_negative() function similar to the one you worked with in an earlier C project
+ - Task 1: Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
