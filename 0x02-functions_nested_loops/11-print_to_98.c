@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - print from n to 98, followed by a new line.
+ * @n: number will be incrmented or decremented
  *
  * Return: Always nothing
  */
