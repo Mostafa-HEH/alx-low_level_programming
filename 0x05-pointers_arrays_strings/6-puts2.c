@@ -5,7 +5,7 @@
  * @str: string will be checked
  *
  * Reurn: Always nothing
-i */
+ */
 void puts2(char *str)
 {
 	int len = 0;
