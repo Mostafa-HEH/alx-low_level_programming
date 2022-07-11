@@ -5,24 +5,22 @@
  * @str: string will be checked
  *
  * Reurn: Always nothing
- */
+i */
 void puts2(char *str)
 {
-	int len, i;
+	int len = 0;
 
-	len = 0;
-	while (str[len] != '\0')
-		len++;
-
-	i = 0;
-	while (i < len)
+	while (len >= 0)
 	{
-		if ((str[i] % 2) == 0)
-			_putchar(str[i]);
-		else
+		if (str[len] == '\0')
+		{
 			_putchar('\n');
-		i++;
-	}
+			break;
+		}
 
-	_putchar('\n');
+		if (len % 2 == 0)
+			_putchar(str[len]);
+
+		len++;
+	}
 }
