@@ -24,3 +24,4 @@
  - Task 7: Write a function that encodes a string into 1337.
  - Task 8: Write a function that encodes a string using rot13.
  - Task 9: Write a function that prints an integer.
+ - Task 10: Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
