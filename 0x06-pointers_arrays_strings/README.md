@@ -15,3 +15,4 @@
 	- Don’t forget to push your header file
 
  - Task 0: Write a function that concatenates two strings.
+ - Task 1: Write a function that concatenates two strings n times.
