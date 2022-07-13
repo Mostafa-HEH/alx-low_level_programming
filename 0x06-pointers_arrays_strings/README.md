@@ -26,3 +26,4 @@
  - Task 9: Write a function that prints an integer.
  - Task 10: Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
  - Task 11: Write a function that adds two numbers.
+ - Task 12: Write a function that prints a buffer.
