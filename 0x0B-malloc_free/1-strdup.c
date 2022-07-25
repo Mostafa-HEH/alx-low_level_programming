@@ -9,7 +9,7 @@
 char *_strdup(char *str)
 {
 	char *cp;
-	int counter, i;
+	unsigned int counter, i;
 
 	if (str == NULL)
 		return (NULL);
@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	while (str[counter] != '\0')
 		counter++;
 
-	cp = malloc(sizeof(str) * (counter));
+	cp = (char *)malloc(sizeof(char) * counter);
 
 	if (cp == NULL)
 		return (NULL);
