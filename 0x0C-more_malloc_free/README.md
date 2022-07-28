@@ -28,4 +28,5 @@
 	- The prototypes of all your functions and the prototype of the function putchar should be included in your header file called main.h
 	- Don’t forget to push your header file
 
-- Task 0: Write a function that allocates memory using malloc.
+ - Task 0: Write a function that allocates memory using malloc.
+ - Task 1: Write a function that concatenates two strings.
