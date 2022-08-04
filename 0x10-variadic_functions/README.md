@@ -16,3 +16,4 @@
 	- Don’t forget to push your header file
 	- All your header files should be include guarded
  - Task 0: Write a function that returns the sum of all its parameters.
+ - Task 1: Write a function that prints numbers, followed by a new line.
