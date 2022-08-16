@@ -27,5 +27,6 @@
 - Task 8: Write a function that returns the sum of all the data (n) of a listint_t linked list.
 - Task 9: Write a function that inserts a new node at a given position.
 - Task 10: Write a function that deletes the node at index index of a listint_t linked list.
-- Task 11: Write a function that prints a listint_t linked list.
+- Task 11: Write a function that reverses a listint_t linked list.
+- Task 12: Write a function that prints a listint_t linked list.
 - Task 13: Write a function that frees a listint_t list.
