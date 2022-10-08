@@ -1,6 +1,8 @@
 #ifndef _LISTS_H_
 #define _LISTS_H_
 
+#include <stdio.h>
+
 /*
  * Structs, enums and unions definitions
  * Typedefs
