@@ -3,6 +3,7 @@
 
 /**
  * free_list - free all list nodes
+ * @head: list will be frees
  *
  * Return: Always Nothing.
  */
