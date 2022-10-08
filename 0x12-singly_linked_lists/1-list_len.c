@@ -2,6 +2,7 @@
 
 /**
  * list_len - count Nodes
+ * @h: first of Nodes will be checked
  *
  * Return: Always number of nodes.
  */
