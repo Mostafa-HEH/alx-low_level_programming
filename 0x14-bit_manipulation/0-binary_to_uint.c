@@ -1,33 +1,4 @@
 /**
- * clc_pow - get power of number
- * @n: number will get its power
- * @p: power will rise on
- *
- * Return: Always te result.
- */
-int clc_pow(int n, int p)
-{
-	int result = 1;
-
-	if (p == 0)
-	{
-		result = 1;
-	} else if (p == 1)
-	{
-		result = n;
-	} else
-	{
-		while (p != 0)
-		{
-			result *= n;
-			p--;
-		}
-	}
-
-	return (result);
-}
-
-/**
  * binary_to_uint - convert binary to decimal
  * @b: the dicmal string will converted
  *
@@ -35,28 +6,19 @@ int clc_pow(int n, int p)
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int i, pow_is;
-	unsigned int result = 0;
-
-	i = 0;
-	while (b[i] != '\0')
 	{
-		if (b[i] == '0' || b[i] == '1')
-			i++;
-		else
-			return (0);
+	unsigned int num = 0;
+	int len = 0;
+
+	if (b[len] == '\0')
+		return (0);
+
+	while ((b[len] == '0') || (b[len] == '1'))
+	{
+		num <<= 1;
+		num += b[len] - '0';
+		len++;
 	}
 
-	i--;
-	pow_is = 0;
-	while (i >= 0)
-	{
-		if (b[i] != '0')
-		{
-			result += clc_pow(2, pow_is);
-		}
-		pow_is++;
-		i--;
-	}
-	return (result);
+	return (num);
 }
